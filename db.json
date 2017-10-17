@@ -12,11 +12,29 @@
     {
       "id": 2,
       "first": "Sarah",
-      "last": "Croft",
+      "last": "c",
       "status": "No repairs in progress",
       "email": "sarahcroft@gmail.com",
       "phone": "(325)-345-2352",
       "log": "This\nis\nanother\ntest\nlog"
+    },
+    {
+      "first": "er",
+      "last": "dfer",
+      "email": "dfv",
+      "phone": "234",
+      "status": "New Customer",
+      "log": "",
+      "id": 3
+    },
+    {
+      "first": "er",
+      "last": "ic",
+      "email": "",
+      "phone": "234",
+      "status": "New Customer",
+      "log": "",
+      "id": 4
     }
   ]
 }
