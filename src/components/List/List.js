@@ -8,22 +8,20 @@ import CreateCustomer from './CreateCustomer/CreateCustomer';
 class List extends Component {
 
 
-  render() {
-    const {
-      customerList,
-      startNewCustomer,
-      selectCustomer
-    } = this.props;
+render(){
+  const {
+    customerList,
+    startNewCustomer
+  } = this.props;
 
-    const CustomerComponents = customerList.map( customer => (
-      <Customer
-        key={ customer.id }
-        id={ customer.id }
-        first={ customer.first }
-        last={ customer.last }
-        selectCustomer={selectCustomer}
-      />
-    ));
+  const CustomerComponents = customerList.map(customer => (
+    <Customer
+        key = {customer.id}
+        id = {customer.id}
+        first = {customer.first}
+        last = {customer.last}
+    />
+  ));
 
     return (
       <div id="List__container">

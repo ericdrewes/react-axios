@@ -1,13 +1,14 @@
-import axios from 'axios';
-import apiURL from './api';
+import axios from "axios";
+import apiURL from "./api";
+import React from "react";
 
-export function getCustomerList() {
+export const getCustomerList = function() {
   return axios.get(apiURL).then(response => response.data);
-}
+};
 
 export const createCustomer = function(customer) {
   return axios.post(apiURL, customer).then(response => response.data);
-}
+};
 
 export const getCustomer = function(id) {
   return axios.get(apiURL + id).then(response => response.data);
